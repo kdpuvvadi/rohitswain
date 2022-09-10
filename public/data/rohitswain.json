@@ -1,0 +1,39 @@
+{
+    "name": "Rohit Swain",
+    "type": "personal",
+    "bio": "Standup Comedian, Hyderabad 😊 Enquiries 📩: silverio.lvc@gmail.com / swain@outlook.com",
+    "avatar": "./rohit.jpg",
+    "links": [
+      {
+        "name": "Follow me on Instagram",
+        "url": "https://www.instagram.com/rohitswain/",
+        "icon": "instagram"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/rhtswn",
+        "icon": "twitter"
+      },
+      {
+        "name": "Subcribe to my YouTube channel",
+        "url": "https://www.facebook.com/TheRohitSwain",
+        "icon": "youtube"
+      },
+      {
+        "name":"Follow me on Facebook",
+        "url": "https://www.facebook.com/TheRohitSwain",
+        "icon": "facebook"
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Latest Standup video",
+        "image": "https://img.youtube.com/vi/1F6QSyMP7NI/maxresdefault.jpg",
+        "date": "2021",
+        "icon": "youtube",
+        "color": "red",
+        "description": "Dubai | Stand-up Comedy by Rohit Swain",
+        "url": "https://www.youtube.com/watch?v=1F6QSyMP7NI"
+      }
+    ]
+  }
