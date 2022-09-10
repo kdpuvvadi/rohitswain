@@ -8,6 +8,8 @@ import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
 import GetIcons from './Icons/GetIcons'
 
+// import bms from './bms.svg'
+
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
     window.open(url, '__blank')
