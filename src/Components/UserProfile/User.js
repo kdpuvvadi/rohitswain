@@ -29,7 +29,7 @@ function User({ singleUser }) {
         setTimeout(() => setskeleton(false), 500)
       })
     return () => {
-      document.title = 'LinkFree'
+      document.title = 'Rohit Swain'
     }
   }, [username])
 
