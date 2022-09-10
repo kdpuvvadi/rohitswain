@@ -4,4 +4,4 @@ Feature: Homepage
 
     Scenario: Opening the homepage
         Given I open "home" page
-        And I see "Contribute on" text in section "footer"
+        And I see "Rohit Swain" text in section "footer"

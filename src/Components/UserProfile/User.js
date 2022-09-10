@@ -21,7 +21,7 @@ function User({ singleUser }) {
       .then((response) => response.json())
       .then((data) => {
         setProfile(data)
-        document.title = `${data.name} | LinkFree`
+        document.title = `${data.name}`
       })
       .catch(() => setError(true))
       .finally(() => {
