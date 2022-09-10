@@ -35,7 +35,7 @@ function Milestones({ milestones }) {
             (e.target.src = 'https://github.com/EddieHubCommunity.png')
           }
           alt={milestone.title}
-          width={100}
+          width={250}
           className="shadow-2"
         />
       )}
@@ -43,7 +43,7 @@ function Milestones({ milestones }) {
       {milestone.url && (
         <div className="flex justify-content-end">
           <Button
-            label="Learn more"
+            label="Tickets"
             role="link"
             rel="noopener noreferrer"
             className="p-button-raised p-button-rounded"

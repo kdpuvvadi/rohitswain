@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import GetIcons from './Icons/GetIcons'
 import ScrollToTopBtn from './ScrollToTopBtn'
 
 function Footer() {
@@ -18,16 +17,15 @@ function Footer() {
   return (
     <footer className="flex justify-content-center align-items-center">
       <p>
-        <span className="mr-2">Contribute on</span>
+        <span className="mr-2">Copyright ©</span>
         <Link
-          to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
+          to={{ pathname: '/' }}
           target="_blank"
           className="mr-2"
-          aria-label="LinkFree repository on GitHub"
+          aria-label="Rohit Swain"
         >
-          <GetIcons className="text-gray-900" iconName="github" size={16} />
         </Link>
-        <span>v{version}</span>
+        <span>{version}</span>
       </p>
       <ScrollToTopBtn />
     </footer>
