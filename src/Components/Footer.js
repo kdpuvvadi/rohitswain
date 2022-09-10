@@ -20,12 +20,10 @@ function Footer() {
         <span className="mr-2">Copyright ©</span>
         <Link
           to={{ pathname: '/' }}
-          target="_blank"
           className="mr-2"
           aria-label="Rohit Swain"
-        >
+        ><span>{version}</span>
         </Link>
-        <span>{version}</span>
       </p>
       <ScrollToTopBtn />
     </footer>

@@ -18,7 +18,7 @@ function Profile({ profile, username }) {
           <Chip template="Community" className="py-2 px-3" />
         </div>
       )}
-      <div className="flex justify-content-center align-items-center">
+      <div className="flex justify-content-center align-items-center mb-3">
         <Avatar
           image={avatar}
           imageAlt={`Profile picture of ${name}`}
@@ -28,16 +28,13 @@ function Profile({ profile, username }) {
             utils.setDefaultSVG(name, error)
           }}
         />
-        <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
-          <h1 className="mx-2 my-0">{name}</h1>
-          {/* <p className="text-2xl font-bold mx-2 my-0">({username})</p> */}
-        </div>
-        <div className="shareprofile-icon">
-          <ShareProfile username={username} />
-        </div>
       </div>
-      <div className="flex justify-content-center w-50">
+      <div className="flex flex-column sm:flex-row justify-content-center align-items-center mb-3">
+          <h1 className="mx-2 my-0">{name}</h1>
+        </div>
+      <div className="flex justify-content-center w-50 mb-3">
         <p>{bio}</p>
+        <p className="shareprofile-icon"><ShareProfile username={username} /></p>
       </div>
     </section>
   )
